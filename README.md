@@ -37,8 +37,9 @@
       <li>CBOW (Continuous Bag-Of-Words)</li>
       <li>Skip-Gram</li>
     </ol>
-    
+  </p>
     <h3>1. CBOW (Continuous Bag-Of-Words):</h3>
+    <p>
     The embedding is learnt by predicting the current word based on its context.
     <br />
     <img src="https://github.com/SurajChinna/Word2Vec/blob/master/assets/image2.png">
@@ -50,4 +51,5 @@
     Both CBOW and Skip-Gram has its own pros and cons, but Skip-Gram generally performs well. So, we will implement Skip-Gram.
     To see the implementation of the Skip-Gram, go to Skip-Gram.ipynb notebook or 
     <a href="https://github.com/SurajChinna/Word2Vec/blob/master/Skip%20Gram.ipynb">click here</a> 
-  </p>
+    </p>
+  
